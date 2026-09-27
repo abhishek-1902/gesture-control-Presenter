@@ -1,31 +1,63 @@
-Gesture Control Presenter 🎮🖐️
+🖐️ Gesture Control Presenter
 
-Control your Google Slides presentations using hand gestures through your laptop camera using Computer Vision and AI.
+A real-time gesture-controlled presentation system built with Python, OpenCV, MediaPipe, and PyAutoGUI. It allows users to control presentation slides using simple hand gestures through a webcam—without requiring a physical keyboard or clicker.
 
-This project uses:
+🚀 Features
 
-* OpenCV
-* MediaPipe
-* PyAutoGUI
+- 🖐️ Real-time hand gesture detection
+- 🎥 Webcam-based interaction
+- 📊 Control presentation slides using hand gestures
+- ⏭️ Move to the next slide
+- ⏮️ Move to the previous slide
+- 🤖 Real-time computer vision processing
+- 🖱️ Automated keyboard/mouse actions using PyAutoGUI
+- 💻 No additional hardware required
 
-to detect hand gestures and convert them into presentation controls like:
+🛠️ Technologies Used
 
-* Next Slide
-* Previous Slide
-* Start Presentation
-* Exit Presentation
+- Python
+- OpenCV – Image and video processing
+- MediaPipe – Real-time hand tracking
+- PyAutoGUI – Keyboard and mouse automation
 
----
+📁 Project Structure
 
-# 🚀 Features
+gesture-control-Presenter/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── screenshots/
+    ├── screenshot1.png
+    ├── screenshot2.png
+    └── screenshot3.png
 
-✅ Control Google Slides using gestures
-✅ Real-time hand tracking using AI
-✅ Works directly from laptop webcam
-✅ No additional hardware required
-✅ Beginner-friendly AI + Computer Vision project
+⚙️ Installation
 
----
+1. Clone the repository
+
+git clone https://github.com/abhishek-1902/gesture-control-Presenter.git
+
+2. Open the project folder
+
+cd gesture-control-Presenter
+
+3. Install the required libraries
+
+pip install -r requirements.txt
+
+▶️ How to Run
+
+Start the application using:
+
+python main.py
+
+Then:
+
+1. Allow access to your webcam.
+2. Position your hand in front of the camera.
+3. Perform the supported gestures.
+4. Use the gestures to control your presentation.
 
 # 🧠 Gesture Controls
 
@@ -36,78 +68,48 @@ to detect hand gestures and convert them into presentation controls like:
 | ✌️ Two Fingers   | Start Slideshow |
 | ✊ Fist           | Exit Slideshow  |
 
----
 
-# 🛠️ Technologies Used
+«Gesture mappings may vary depending on the implementation in "main.py".»
 
-* Python
-* OpenCV
-* MediaPipe
-* PyAutoGUI
+📸 Screenshots
 
----
+Screenshots of the project are available in the "screenshots/" folder.
 
-# 📦 Installation
+🎯 Project Objective
 
-— Install Dependencies
+The main objective of this project is to explore how Computer Vision and hand tracking can be used to create a natural and touch-free human-computer interaction system.
 
-python -m pip install --break-system-packages -r requirements.txt
-```
+💡 What I Learned
 
-— Download Hand Landmarker Model
+Through this project, I gained practical experience with:
 
-python setup_models.py
-```
+- Real-time computer vision
+- Hand landmark detection
+- MediaPipe
+- OpenCV
+- Python automation
+- Webcam-based applications
+- Human-computer interaction
 
----
+🔮 Future Improvements
 
-# ▶️ Run the App
+Possible future enhancements include:
 
-```bash
-python main.py
-```
+- ✋ Adding more gesture controls
+- 🎨 Creating a graphical user interface
+- 🖥️ Supporting PowerPoint and other presentation software
+- 🔊 Adding voice commands
+- ⚡ Improving gesture recognition accuracy
+- 📱 Adding more customizable controls
 
+👨‍💻 Author
 
-# Close the application
+Abhishek Kumar
 
-Press Ctrl+C in terminal to close the application
+B.Tech – Artificial Intelligence & Machine Learning
 
-
-
-# How to Use
-
-1. Open Google Slides in Chrome
-2. Start slideshow mode
-3. Run the Python application
-4. Show gestures in front of webcam
-5. Control slides hands-free
-
-
-# 📜 requirements.txt
-
-mediapipe==0.10.35
-opencv-python>=4.8.0
-pyautogui>=0.9.54
-```
-
-
-# 🧩 How It Works
-
-The application:
-
-1. Captures webcam feed using OpenCV
-2. Detects hand landmarks using MediaPipe
-3. Identifies finger positions
-4. Maps gestures to keyboard shortcuts
-5. Uses PyAutoGUI to control Google Slides
+GitHub: https://github.com/abhishek-1902
 
 ---
- 🎓 Learning Outcomes
 
-* Computer Vision
-* AI-based gesture recognition
-* Human Computer Interaction (HCI)
-* Real-time webcam processing
-* Automation using Python
-
----
+⭐ If you find this project useful, consider giving the repository a star!
